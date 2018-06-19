@@ -3,10 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-//引入faskclick,解决移动端300ms点击延迟问题
-import fastClick from "fastclick"
-
-
+import fastclick from "fastclick";
+//引入iconfont
+import "styles/iconfont.css"
 
 Vue.config.productionTip = false
 
